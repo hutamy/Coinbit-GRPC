@@ -18,7 +18,7 @@
 - Install dependencies
 ```cmd
 go mod tidy
-go mod vendor -- idk harus ga
+go mod vendor
 ```
 Or simply run `make dep` command.
 - Make sure you create the required Kafka topics (deposit, flag-wallet,  balance-table, threshold-table, and flagger-table)
