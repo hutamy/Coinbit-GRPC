@@ -1,0 +1,7 @@
+syntax = "proto3";
+option go_package = "./pb";
+
+message Counter {
+  int64 start_period = 1;
+  double recieved = 2;
+}
